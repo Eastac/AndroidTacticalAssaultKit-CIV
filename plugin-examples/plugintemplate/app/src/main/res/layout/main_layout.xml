@@ -11,12 +11,38 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="8dp"
         android:orientation="vertical" >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/app_name" />
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_heading_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/heading_status_default" />
+
+        <Switch
+            android:id="@+id/switch_use_only_gps_bearing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/toggle_use_only_gps_bearing"
+            android:textOn="@string/toggle_on"
+            android:textOff="@string/toggle_off" />
+
+        <Button
+            android:id="@+id/button_restore_previous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/restore_previous_values" />
 
     </LinearLayout>
 </ScrollView>
