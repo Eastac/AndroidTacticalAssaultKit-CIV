@@ -5,6 +5,15 @@
     <!-- description -->
     <string name="app_desc">This plugin demonstrate bare bones plugin UI, and may be used to start a new plugin project</string>
 
+    <string name="toggle_use_only_gps_bearing">Use XML/GPS heading only</string>
+    <string name="restore_previous_values">Restore previous ATAK heading values</string>
+    <string name="toggle_on">On</string>
+    <string name="toggle_off">Off</string>
+    <string name="heading_status_default">Heading status will appear here.</string>
+    <string name="heading_status_template">useOnlyGPSBearing=%1$s
+mapMode=%2$s
+savedSnapshot=%3$s</string>
+
 
 
 
